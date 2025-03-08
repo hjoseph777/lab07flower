@@ -8,6 +8,8 @@ This program handles flower orders for a small shop. Customers can order differe
 
 ![Screenshot of program output](../lab07flower/Screenshot.png)
 
+![Screenshot of program output](./lab07flower/Screenshot.png)
+
 ## How It Works
 
 1. Run the program from the Tester class
