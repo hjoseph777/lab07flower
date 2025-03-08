@@ -1,39 +1,42 @@
 ## Flower Shop Application
 
-This application allows users to order flowers by selecting from a list of available flowers and specifying the quantity. The application processes the input and displays the order details.
+This program handles flower orders for a small shop. Customers can order different types of annual flowers and the application keeps track of all orders.
 
-## File and Directory Structure
+## How It Works
 
-```
-flowershop/
-├── src/
-│   └── main/
-│       └── java/
-│           └── annualflowers/
-│               └── com/
-│                   └── example/
-│                       ├── AnnualFlowers.java
-│                       ├── OrderFlowers.java
-│                       ├── Tester.java
-│                       └── StringUtility.java
-├── readme.md
-└── Screenshot.png
-```
+1. Run the program from the Tester class
+2. Enter flower quantities separated by commas (example: 2,3,1,5)
+3. Keep entering orders until you're done
+4. Type "exit" when finished
+5. The program shows a summary of all orders
 
-## Classes
+## Project Files
 
-### [AnnualFlowers](src/main/java/annualflowers/com/example/AnnualFlowers.java)
-This class manages the details of the annual flowers, including their names and prices. It provides methods to set and get flower details and calculate prices.
+### [AnnualFlowers.java](flowershop/src/main/java/annualflowers/com/example/AnnualFlowers.java)
+Stores information about flower types and prices.
 
-### [OrderFlowers](src/main/java/annualflowers/com/example/OrderFlowers.java)
-This class handles the processing of the flower order. It includes methods to split the input and manage the order details.
+### [OrderFlowers.java](flowershop/src/main/java/annualflowers/com/example/OrderFlowers.java)
+Processes individual flower orders.
 
-### [Tester](src/main/java/annualflowers/com/example/Tester.java)
-This class contains the main method which serves as the entry point of the application. It interacts with the user to get the flower order details and uses the `OrderFlowers` class to process the order.
+### [FlowerOrderManager.java](flowershop/src/main/java/annualflowers/com/example/FlowerOrderManager.java)
+Manages multiple customer orders and calculates totals.
 
-### [StringUtility](src/main/java/annualflowers/com/example/StringUtility.java)
-This class provides utility methods for string manipulation, such as trimming and splitting strings.
+### [FlowerOrderOutputFormatter.java](flowershop/src/main/java/annualflowers/com/example/FlowerOrderOutputFormatter.java)
+Makes the order summary look nice and organized.
 
-## Result
+### [StringUtility.java](flowershop/src/main/java/annualflowers/com/example/StringUtility.java)
+Helper methods for working with strings and arrays.
 
-![result](Screenshot.png)
+### [Tester.java](flowershop/src/main/java/annualflowers/com/example/Tester.java)
+Main program that gets user input and displays results.
+
+## What I Learned
+
+- How to use 2D arrays to store multiple orders
+- How to calculate column totals
+- How to format output to look nice
+- How to handle user input with error checking
+
+## Sample Output
+
+![Screenshot of program output](../lab07flower/screenshot.png)
