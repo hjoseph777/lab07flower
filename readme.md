@@ -4,11 +4,8 @@ This program handles flower orders for a small shop. Customers can order differe
 
 ## Sample Output
 
-![Screenshot](/lab07flower/Screenshot.png)
-
 ![Screenshot of program output](https://github.com/hjoseph777/lab07flower/raw/main/flowershop/screenshot.png)
 
-![Screenshot of program output](../lab07flower/Screenshot.png)
 
 
 ## How It Works
