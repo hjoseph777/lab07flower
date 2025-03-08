@@ -2,6 +2,11 @@
 
 This program handles flower orders for a small shop. Customers can order different types of annual flowers and the application keeps track of all orders.
 
+## Sample Output
+
+![Screenshot of program output](./lab07flower/screenshot.png)
+![Screenshot of program output](./lab07flower/screenshot.png)
+
 ## How It Works
 
 1. Run the program from the Tester class
@@ -37,6 +42,4 @@ Main program that gets user input and displays results.
 - How to format output to look nice
 - How to handle user input with error checking
 
-## Sample Output
 
-![Screenshot of program output](../lab07flower/screenshot.png)
